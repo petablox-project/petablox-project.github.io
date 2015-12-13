@@ -1,0 +1,31 @@
+#- title: 
+#  conference: 
+#  authors:
+#  paper:
+#  long:
+#  award:
+#  slides:
+#  poster:
+#  code:
+#  other:
+
+- title: "Scaling Relational Inference Using Proofs and Refutations"
+  conference: "AAAI 2016: Conference on Artificial Intelligence."
+  authors: "Ravi Mangal, Xin Zhang, Aditya Kamath, Aditya Nori, and Mayur Naik."
+  paper: pubs/aaai16.pdf
+
+- title: "Query-Guided Maximum Satisfiability"
+  conference: "POPL 2016: ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages."
+  authors: "Xin Zhang, Ravi Mangal, Aditya Nori, and Mayur Naik."
+  paper: pubs/popl16.pdf
+
+- title: "Volt: A Lazy Grounding Framework for Solving Very Large MaxSAT Instances"
+  conference: "SAT 2015: International Conference on Theory and Applications of Satisfiability Testing."
+  authors: "Ravi Mangal, Xin Zhang, Aditya Nori, and Mayur Naik."
+  paper: pubs/sat15.pdf
+
+- title: "A User-Guided Approach to Program Analysis"
+  conference: "FSE 2015: ACM Symposium on Foundations of Software Engineering."
+  authors: "Ravi Mangal, Xin Zhang, Aditya Nori, and Mayur Naik."
+  award: "Distinguished Paper Award"
+  paper: pubs/fse15a.pdf

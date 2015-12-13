@@ -1,0 +1,15 @@
+- date: "Nov'15"
+  content: "Paper on <a href=\"pubs/aaai16.pdf\">scaling relational inference</a> to appear at <a href=\"http://www.aaai.org/Conferences/AAAI/aaai16.php\">AAAI'16</a>"
+
+- date: "Oct'15"
+  content: "Paper on <a href=\"pubs/popl16.pdf\">query-guided maximum satisfiability</a> to appear at <a href=\"http://conf.researchr.org/home/POPL-2016\">POPL'16</a>"
+
+- date: "Sep'15"
+  content: "Distinguished Paper Award for <a href=\"pubs/fse15a.pdf\">user-guided program analysis</a> paper at <a href=\"http://esec-fse15.dei.polimi.it\">FSE'15</a>"
+
+- date: "Jun'15" 
+  content: "Talk on <a href=\"pubs/petablox.pptx\">Petablox: Declarative Program Analysis for Big Code</a> (UC Berkeley, Stanford, and Facebook)</li>"
+
+- date: "May'15"
+  content: "Paper on user-guided program analysis to appear at <a href=\"http://esec-fse15.dei.polimi.it/\">FSE'15</a></li>"
+

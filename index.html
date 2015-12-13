@@ -1,0 +1,95 @@
+---
+layout: default
+title: 'Petablox: Declarative Program Analysis for Big Code'
+logo_img: petablox_logo.png
+logo_style: 'width: 280px; height: 70px;'
+---
+
+<div class='row'>
+	<div class='col-md-3 hidden-sm' style="margin-top:10px">
+		<img src='images/petablox_logo.png' width="110%"/>
+	</div>
+	<div class='col-md-9 col-sm-12'>
+		<h3>Petablox: Declarative Program Analysis for Big Code</h3> 
+</div>
+
+<div class='row'>
+	<div class='col-md-12'>
+	<h5>What's New</h5>
+	<ul>
+	{% for news in site.data.news %}
+	<li><span class='pag-news-date'>[{{news.date}}]</span>
+		{{news.content}}
+	</li>	
+	{% endfor %}
+	</ul>
+	</div>
+</div>
+
+<div class='row'>
+	<div class='col-md-12'>
+	<h5>About</h5>
+	<p>Most software development today leverages the world's massive
+collection of open source software. There is significant room for program
+analyses to similarly leverage Big Code, the collective knowledge amassed from
+analyzing existing programs, to automatically infer or predict salient behaviors
+and vulnerabilities in new programs. Petablox is a framework for automatically
+synthesizing use-cases of arbitrary declarative program analyses for Big Code
+tasks such as efficiently finding good abstractions, transferring analysis
+results across programs, and adapting analyses to user feedback.  Despite their
+diversity, all these tasks entail solving large instances of MaxSAT, the maximum
+satisfiability problem which comprises a mix of hard (inviolable, logical)
+constraints and soft (violable, probabilistic) constraints. Petablox encompasses
+demand-driven, compositional, and learning-based MaxSAT optimizations for
+scaling these tasks to large code bases.
+	</div>
+</div>
+
+
+<div class='row'>
+	<div class='col-md-12'>
+	<h5>Papers</h5>
+	<ul>
+	{% for pub in site.data.pubs %}	
+	<li><b><a href="{{pub.paper}}">{{pub.title}}</a>.</b><br>
+	{{pub.authors}}<br>
+	<i>{{pub.conference}}</i>
+	{% if pub.award != nil%}
+	<br><b>{{pub.award}}</b>
+	{% endif %}
+	<br><br></li>
+	{% endfor %}
+	</ul>
+	</div>
+</div>
+
+<div class='row'>
+	<div class='col-md-12'>
+	<h5>People</h5>
+	Students:<br>
+	<ul>
+	<li><a href="http://www.cc.gatech.edu/~rmangal3/">Ravi Mangal</a></li>
+	<li><a href="http://www.cc.gatech.edu/~xzhang36/">Xin Zhang</a></li>
+	</ul>
+	Faculty:<br>
+	<ul>
+	<li><a href="http://cc.gatech.edu/~naik">Mayur Naik</a></li>
+	<li><a href="http://www.cs.ucla.edu/~palsberg/">Jens Palsberg</a></li>
+	</ul>
+	Researchers:<br>
+	<ul>
+	<li>Molham Aref (LogicBlox)</li>
+	<li>Martin Bravenboer (LogicBlox)</li>
+	<li>Todd Green (LogicBlox)</li>
+	</ul>
+	</div>
+</div>
+
+<div class='row'>
+	<div class='col-md-12'>
+	<h5>Acknowledgments</h5>
+	<p>
+	This research is funded in part by DARPA as part of the <a href="http://www.darpa.mil/program/mining-and-understanding-software-enclaves">MUSE</a> program (contract #FA8750-15-2-0009) and by NSF Award <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1526270">New Frontiers in Constraint-Based Program Analysis</a>.
+	</p>
+	</div>
+</div>
