@@ -1,6 +1,6 @@
 #content {
-	background-color:  #F0F0F0 ;
-	padding-top: 20px;
+	background-color:  white ;
+	padding-top: 50px;
 	padding-bottom: 20px;
 	margin-bottom: 50px;
 }
@@ -8,4 +8,13 @@
 #logo {
 	font-size: 27px;
 	text-align: center;
+}
+
+
+body {
+    background-color: #F0F0F0;
+}
+
+.people_group{
+	margin-top: 20px;
 }
