@@ -18,3 +18,7 @@ body {
 .people_group{
 	margin-top: 20px;
 }
+
+.people_group table{
+	text-align: left;	
+}
