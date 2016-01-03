@@ -5,7 +5,39 @@ logo_img: petablox_logo.png
 logo_style: 'width: 280px; height: 70px;'
 ---
 
-<div class='row'>
+
+<div class="top"  >
+	<div class="row">
+		<div class=" col-md-3 nopadding vcenter" style="margin-top:10px">
+			<img src="{{site.baseurl}}/images/petablox_logo_new.png" width="100%"  alt="" class="alignleft border"/>
+		</div>
+		<div class=" col-md-9  nopadding vcenter">
+			<h1 id = "logo">{{site.toolname}}: Declarative Program Analysis for Big Code</h1>
+		</div>
+	</div>
+	</br>
+		<div class="row">
+		<div class="col-md-12">
+			<p> Most software development today leverages the world's massive
+collection of open source software. There is significant room for program
+analyses to similarly leverage Big Code, the collective knowledge amassed from
+analyzing existing programs, to automatically infer or predict salient behaviors
+and vulnerabilities in new programs. Petablox is a framework for automatically
+synthesizing use-cases of arbitrary declarative program analyses for Big Code
+tasks such as efficiently finding good abstractions, transferring analysis
+results across programs, and adapting analyses to user feedback.  Despite their
+diversity, all these tasks entail solving large instances of MaxSAT, the maximum
+satisfiability problem which comprises a mix of hard (inviolable, logical)
+constraints and soft (violable, probabilistic) constraints. Petablox encompasses
+demand-driven, compositional, and learning-based MaxSAT optimizations for
+scaling these tasks to large code bases.
+		</div>
+		</p>
+		</div>
+
+</div>
+
+<!--div class='row'>
 	<div class='col-md-3 hidden-sm hidden-xs' style="margin-top:10px">
 		<img src='images/petablox_logo.png' width="110%"/>
 	</div>
@@ -43,10 +75,10 @@ constraints and soft (violable, probabilistic) constraints. Petablox encompasses
 demand-driven, compositional, and learning-based MaxSAT optimizations for
 scaling these tasks to large code bases.
 	</div>
-</div>
+</div-->
 
 
-<div class='row'>
+<!--div class='row'>
 	<div class='col-md-12'>
 	<h5>Papers</h5>
 	<ul>
@@ -68,9 +100,9 @@ scaling these tasks to large code bases.
 	<h5>Questions?</h5>
 <p>For questions about Petablox, send email to <b>petablox-discuss{at}googlegroups.com</b>. Posting does not require membership but posts by non-members are moderated to avoid spamming group members. </p>
 	</div>
-</div>
+</div-->
 
-<div class='row'>
+<!--div class='row'>
 	<div class = 'col-md-12'>
 	<h5>People</h5>
 
@@ -117,11 +149,28 @@ scaling these tasks to large code bases.
 	</div>
 
 </div>
-</div>
+</div-->
+
+<div class="row">
+	<div class="page-header" class="col-lg-12">
+		<h4>News</h4>
+	</div>
+	<div class="col-lg-12">
+		<ul>
+		{% for news in site.data.news %}
+		<li>	<b>	{{news.date}}: </b>
+				{{news.content}}
+		</li>
+		{% endfor %}
+	</ul>
+		</div>
+	</div>
 
 <div class='row'>
-	<div class='col-md-12'>
-	<h5>Acknowledgments</h5>
+	<div class='page-header'>
+	  <h4>Acknowledgments</h4>
+  </div>
+  <div class="col-lg-12">
 	<p>
 	This research is funded in part by DARPA as part of the <a href="http://www.darpa.mil/program/mining-and-understanding-software-enclaves">MUSE</a> program (contract #FA8750-15-2-0009) and by NSF Award <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1526270">New Frontiers in Constraint-Based Program Analysis</a>.
 	</p>
