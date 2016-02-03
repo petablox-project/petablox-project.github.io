@@ -2,7 +2,7 @@
 navigation:
         - text: Home
           url: /index.html
-        - text: Download
+        - text: Software
           url: /download.html
         - text: Publications
           url: /pubs.html
