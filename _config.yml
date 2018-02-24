@@ -4,6 +4,8 @@ navigation:
           url: /index.html
         - text: Software
           url: /download.html
+        - text: Documentation
+          url: /docs.html
         - text: Publications
           url: /pubs.html
         - text: People
