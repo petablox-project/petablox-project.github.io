@@ -8,5 +8,7 @@ navigation:
           url: /pubs.html
         - text: People
           url: /people.html
+        - text: Acks
+          url: /acks.html
 
 toolname: Petablox

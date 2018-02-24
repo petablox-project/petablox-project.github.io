@@ -31,6 +31,9 @@ layout: default
 				{% if pub.poster != nil %}
 				[<a href="{{site.baseurl}}{{pub.poster}}">Poster</a>]
 				{% endif %}
+				{% if pub.video != nil %}
+				[<a href="{{site.baseurl}}{{pub.video}}">Video</a>]
+				{% endif %}
 				{% if pub.code != nil %}
 				[ {{pub.code}}]
 				{% endif %}

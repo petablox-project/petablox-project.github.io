@@ -6,23 +6,34 @@
 #  award:
 #  slides:
 #  poster:
+#  video:
 #  code:
 #  other:
 
-- title: "Scaling Relational Inference Using Proofs and Refutations"
-  conference: "AAAI 2016: Conference on Artificial Intelligence."
-  authors: "Ravi Mangal, Xin Zhang, Aditya Kamath, Aditya Nori, and Mayur Naik."
-  paper: pubs/aaai16.pdf
+- title: "Interactive Program Reasoning Using Bayesian Inference"
+  conference: "PLDI 2018: ACM SIGPLAN Conference on Programming Language Design and Implementation."
+  authors: "Mukund Raghothaman, Sulekha Kulkarni, Kihong Heo, and Mayur Naik"
+  video: "https://www.youtube.com/watch?v=vGST2Y6LYXs"
+  paper: pubs/pldi18.pdf
 
-- title: "Query-Guided Maximum Satisfiability"
-  conference: "POPL 2016: ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages."
-  authors: "Xin Zhang, Ravi Mangal, Aditya Nori, and Mayur Naik."
-  paper: pubs/popl16.pdf
+- title: "Maximum Satisfiability in Program Analysis: Applications and Techniques"
+  conference: "VMCAI 2018: International Conference on Verification, Model Checking, and Abstract Interpretation"
+  authors: "Xujie Si, Xin Zhang, Radu Grigore, and Mayur Naik"
+  award: "Invited Tutorial"
+  paper: pubs/vmcai18.pdf
 
-- title: "Volt: A Lazy Grounding Framework for Solving Very Large MaxSAT Instances"
-  conference: "SAT 2015: International Conference on Theory and Applications of Satisfiability Testing."
-  authors: "Ravi Mangal, Xin Zhang, Aditya Nori, and Mayur Naik."
-  paper: pubs/sat15.pdf
+- title: "Maximum Satisfiability in Software Analysis: Applications and Techniques"
+  conference: "CAV 2017: International Conference on Computer Aided Verification"
+  authors: "Xujie Si, Xin Zhang, Radu Grigore, and Mayur Naik"
+  award: "Invited Tutorial"
+  slides: "http://www.cis.upenn.edu/~mhnaik/slides/cav17.pptx"
+  video: "https://www.youtube.com/watch?v=GCOCAedb54E"
+  paper: pubs/cav17.pdf
+
+- title: "Effective Interactive Resolution of Static Analysis Alarms"
+  conference: "OOPSLA 2017: Conference on Object-Oriented Programming, Systems, Languages, and Applications."
+  authors: "Xin Zhang, Radu Grigore, Xujie Si, and Mayur Naik"
+  paper: pubs/oopsla17.pdf
 
 - title: "A User-Guided Approach to Program Analysis"
   conference: "FSE 2015: ACM Symposium on Foundations of Software Engineering."
