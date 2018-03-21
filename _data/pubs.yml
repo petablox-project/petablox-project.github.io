@@ -20,7 +20,7 @@
   conference: "VMCAI 2018: International Conference on Verification, Model Checking, and Abstract Interpretation"
   authors: "Xujie Si, Xin Zhang, Radu Grigore, and Mayur Naik"
   award: "Invited Tutorial"
-  paper: pubs/vmcai18.pdf
+  paper: "http://www.seas.upenn.edu/~mhnaik/pubs/vmcai18.pdf"
 
 - title: "Maximum Satisfiability in Software Analysis: Applications and Techniques"
   conference: "CAV 2017: International Conference on Computer Aided Verification"
