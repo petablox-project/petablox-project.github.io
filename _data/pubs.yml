@@ -35,6 +35,11 @@
   authors: "Xin Zhang, Radu Grigore, Xujie Si, and Mayur Naik"
   paper: pubs/oopsla17.pdf
 
+- title: "Accelerating Program Analyses by Cross-Program Training"
+  conference: "<b>OOPSLA 2016</b>: ACM conference on Object-Oriented Programming, Systems, Languages & Applications"
+  authors: "Sulekha Kulkarni, Ravi Mangal, Xin Zhang, and Mayur Naik"
+  paper: "http://www.cis.upenn.edu/~mhnaik/papers/oopsla16.pdf"
+
 - title: "A User-Guided Approach to Program Analysis"
   conference: "FSE 2015: ACM Symposium on Foundations of Software Engineering."
   authors: "Ravi Mangal, Xin Zhang, Aditya Nori, and Mayur Naik."
