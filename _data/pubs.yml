@@ -31,12 +31,12 @@
   paper: pubs/cav17.pdf
 
 - title: "Effective Interactive Resolution of Static Analysis Alarms"
-  conference: "OOPSLA 2017: Conference on Object-Oriented Programming, Systems, Languages, and Applications."
+  conference: "OOPSLA 2017: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications."
   authors: "Xin Zhang, Radu Grigore, Xujie Si, and Mayur Naik"
   paper: pubs/oopsla17.pdf
 
 - title: "Accelerating Program Analyses by Cross-Program Training"
-  conference: "<b>OOPSLA 2016</b>: ACM conference on Object-Oriented Programming, Systems, Languages & Applications"
+  conference: "OOPSLA 2016: ACM Conference on Object-Oriented Programming, Systems, Languages and Applications"
   authors: "Sulekha Kulkarni, Ravi Mangal, Xin Zhang, and Mayur Naik"
   paper: "http://www.cis.upenn.edu/~mhnaik/papers/oopsla16.pdf"
 
