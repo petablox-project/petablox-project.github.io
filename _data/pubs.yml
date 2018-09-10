@@ -1,5 +1,5 @@
-#- title: 
-#  conference: 
+#- title:
+#  conference:
 #  authors:
 #  paper:
 #  long:
@@ -9,6 +9,14 @@
 #  video:
 #  code:
 #  other:
+
+- title: "Learning Loop Invariants for Program Verification"
+  conference: "NIPS 2018: Conference on Neural Information Processing Systems (Spotlight)"
+  authors: "Xujie Si, Hanjun Dai, Mukund Raghothaman, Mayur Naik, and Le Song"
+
+- title: "Syntax-Guided Synthesis of Datalog Programs"
+  conference: "FSE 2018: ACM Symposium on the Foundations of Software Engineering"
+  authors: "Xujie Si, Woosuk Lee, Richard Zhang, Aws Albarghouthi, Paris Koutris, and Mayur Naik"
 
 - title: "Interactive Program Reasoning Using Bayesian Inference"
   conference: "PLDI 2018: ACM SIGPLAN Conference on Programming Language Design and Implementation."
